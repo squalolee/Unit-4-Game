@@ -1,0 +1,81 @@
+body {
+ background-color: aquamarine;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: orange;
+    font-size: 32px;
+    width: 300px;
+    height: 60px;
+    color: white;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    padding: 4px;
+    text-align: center;
+}
+.directions {
+    background-color: peachpuff;
+    color: green;
+    height: 400px;
+    width: 500px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    padding: 4px;
+    font-size: large;
+}
+.random-number {
+    background-color: green;
+    font-size: 42px;
+    color: black;
+    float: left;
+    height: 75px;
+    width: 100px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    padding: 4px;
+}
+.history {
+    background-color: lightskyblue;
+    height: 75px;
+    width: 40px;
+    color: black;
+    float: left;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    padding: 4px;
+}
+#helper {
+    clear: both;
+  }
+.your-score {
+    background-color: darkgreen;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    padding: 4px;
+
+}
+.score-display {
+    background-color: darkgreen;
+    color: white;
+    height: 75px;
+    width: 100px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    padding: 4px;
+}
