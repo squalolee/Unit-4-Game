@@ -37,6 +37,27 @@ crystal.red.value = getRandom(1,12);
 crystal.yellow.value = getRandom(1,12);
 crystal.green.value = getRandom(1,12);
 
-$()
+$("#your-score-display").text(userScore)
+$("#goal-display").text(goal)
 
-}
+console.log(crystal.blue.value);
+};
+
+startGame();
+
+var winChecker = function () {
+    if (userScore > goal) {
+        alert("Sorry. You lost!");
+        lHistory++;
+        $("#lHistory").text(lHistory);
+        startGame();
+    }
+    else if (userScore === goal) {
+        alert("You win!");
+        wHistory++;
+        $("#wHistory").text(wHistory);
+        startGame();
+    }
+    
+};
+
